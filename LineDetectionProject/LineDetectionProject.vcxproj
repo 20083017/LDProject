@@ -79,13 +79,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\LSWMS.cpp" />
     <ClCompile Include="hough.cpp" />
+    <ClCompile Include="lsd.cpp" />
+    <ClCompile Include="lsd_cmd.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="pgm.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\LSWMS.h" />
     <ClInclude Include="hough.h" />
+    <ClInclude Include="lsd.h" />
+    <ClInclude Include="pgm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

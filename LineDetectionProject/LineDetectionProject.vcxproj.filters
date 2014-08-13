@@ -21,7 +21,13 @@
     <ClCompile Include="hough.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\LSWMS.cpp">
+    <ClCompile Include="lsd.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="pgm.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="lsd_cmd.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +35,10 @@
     <ClInclude Include="hough.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\LSWMS.h">
+    <ClInclude Include="lsd.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="pgm.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
