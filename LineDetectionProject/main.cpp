@@ -55,7 +55,7 @@ int main( int argc, char** argv )
 	Mat baseImg = imread("C:\\Users\\vpopov\\Desktop\\lena1.pgm", CV_LOAD_IMAGE_GRAYSCALE);
 
 	/* print output */
-    printf("%d line segments found:\n",n);
+   /* printf("%d line segments found:\n",n);
     for(i = 0; i < n - 2; i++) {
       for( j = 0; j < 7; j++){
 
@@ -69,15 +69,30 @@ int main( int argc, char** argv )
 			  int x2 = out[7*i+j + 2];
 			  int y2 = out[7*i+j + 3];
 
-			  line(baseImg, Point(x1,y1), Point(x2,y2), Scalar(0,200,0),1,4);
+			  line(baseImg, Point(x1,y1), Point(x2,y2), Scalar(0,200,00),1,4);
 
 		  }
           printf("\n");
 	  }
+    }*/
+
+	printf("%d line segments found:\n",n);
+	for(i=0;i<n;i++)
+    {
+	  double p[7];
+
+      for(j=0;j<7;j++){
+        printf("%f ",out[7*i+j]);
+		p[j] = out[7*i+j];
+	  }
+
+	  line(baseImg, Point(p[0],p[1]), Point(p[2],p[3]), Scalar(117,200,117), p[4]); 
+
+      printf("\n");
     }
 
-	namedWindow("drawing", CV_WINDOW_AUTOSIZE|CV_WINDOW_FREERATIO);
-    imshow("drawing", baseImg);
+	namedWindow("LSD", CV_WINDOW_AUTOSIZE|CV_WINDOW_FREERATIO);
+    imshow("LSD", baseImg);
 
     /* free memory */
     free( (void *) image );

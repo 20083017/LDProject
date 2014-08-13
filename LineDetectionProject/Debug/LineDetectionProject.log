@@ -1,30 +1,9 @@
-﻿Построение начато 13.08.2014 15:55:01.
-     1>Проект "C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\LineDetectionProject\LineDetectionProject.vcxproj" в узле 2 (целевые объекты rebuild).
-     1>_PrepareForClean:
-         Файл "Debug\LineDetectionProject.lastbuildstate" удаляется.
-       InitializeBuildStatus:
-         Создание "Debug\LineDetectionProject.unsuccessfulbuild", так как было задано "AlwaysCreate".
+﻿Построение начато 13.08.2014 16:27:31.
+     1>Проект "C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\LineDetectionProject\LineDetectionProject.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\LineDetectionProject.unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Open\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hough.cpp lsd.cpp lsd_cmd.cpp main.cpp pgm.cpp
-         pgm.cpp
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(53): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(55): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(73): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(85): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(88): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(91): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\pgm.cpp(136): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Open\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hough.cpp main.cpp
          main.cpp
      1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
@@ -58,53 +37,16 @@
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
      1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(1035): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(66): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(67): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(69): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(70): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-         lsd_cmd.cpp
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(293): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(370): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110): см. объявление "strcat"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(371): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110): см. объявление "strcat"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(372): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110): см. объявление "strcat"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(383): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(389): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(395): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(401): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(407): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(622): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(664): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105): см. объявление "strcpy"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(862): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(931): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(986): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd_cmd.cpp(1035): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
-         lsd.cpp
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd.cpp(2280): warning C4244: return: преобразование "double" в "int", возможна потеря данных
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd.cpp(2307): warning C4101: i: неиспользованная локальная переменная
+     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(89): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(89): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(89): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(89): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\main.cpp(89): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
          hough.cpp
      1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\hough.cpp(51): warning C4244: =: преобразование "double" в "uchar", возможна потеря данных
          Создание кода...
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd.cpp(2139): warning C4700: использована неинициализированная локальная переменная "i"
-     1>c:\users\vpopov\documents\visual studio 2010\projects\linedetectionproject\linedetectionproject\lsd.cpp(1620): warning C4700: использована неинициализированная локальная переменная "i"
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LineDetectionProject.exe.embed.manifest.res" Debug\LineDetectionProject_manifest.rc 
+         Для всех выходных данных обновления не требуется.
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\Debug\LineDetectionProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Open\opencv\build\x86\vc10\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LineDetectionProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\Debug\LineDetectionProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\Debug\LineDetectionProject.lib" /MACHINE:X86 Debug\LineDetectionProject.exe.embed.manifest.res
          Debug\hough.obj
@@ -113,22 +55,16 @@
          Debug\main.obj
          Debug\pgm.obj
        Manifest:
-         Файл "Debug\LineDetectionProject.exe.embed.manifest" удаляется.
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LineDetectionProject.exe.embed.manifest" /manifest Debug\LineDetectionProject.exe.intermediate.manifest
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LineDetectionProject.exe.embed.manifest.res" Debug\LineDetectionProject_manifest.rc 
+         Для всех выходных данных обновления не требуется.
        LinkEmbedManifest:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\Debug\LineDetectionProject.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Open\opencv\build\x86\vc10\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_core249d.lib opencv_imgproc249d.lib opencv_highgui249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LineDetectionProject.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\Debug\LineDetectionProject.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\Debug\LineDetectionProject.lib" /MACHINE:X86 Debug\LineDetectionProject.exe.embed.manifest.res
-         Debug\hough.obj
-         Debug\lsd.obj
-         Debug\lsd_cmd.obj
-         Debug\main.obj
-         Debug\pgm.obj
+         Для всех выходных данных обновления не требуется.
          LineDetectionProject.vcxproj -> C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\Debug\LineDetectionProject.exe
        FinalizeBuildStatus:
          Файл "Debug\LineDetectionProject.unsuccessfulbuild" удаляется.
          Обращение к "Debug\LineDetectionProject.lastbuildstate".
-     1>Построение проекта "C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\LineDetectionProject\LineDetectionProject.vcxproj" завершено (целевые объекты rebuild).
+     1>Построение проекта "C:\Users\vpopov\documents\visual studio 2010\Projects\LineDetectionProject\LineDetectionProject\LineDetectionProject.vcxproj" завершено (целевые объекты build).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:03.64
+Затраченное время: 00:00:02.16

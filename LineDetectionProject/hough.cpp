@@ -61,8 +61,8 @@ int houghLineTransform(const char* str) {
             }
         }
  
-        namedWindow("final");
-        imshow("final", dst);
+        namedWindow("Hough");
+        imshow("Hough", dst);
  
         namedWindow("initial");
         imshow("initial", src);
